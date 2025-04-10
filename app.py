@@ -271,7 +271,7 @@ def show_news_list(reply_token, category, news_list):
             "type": "box",
             "layout": "horizontal",
             "contents": [
-                # 左側方形圖片 - 優化填滿設定
+                #左側圖片
                 {
                     "type": "box",
                     "layout": "vertical",
@@ -281,14 +281,14 @@ def show_news_list(reply_token, category, news_list):
                             "url": news.get('thumbnail') if news.get('thumbnail') else "https://via.placeholder.com/100x100.png?text=CTS+News",
                             "aspectMode": "cover",
                             "aspectRatio": "1:1",
-                            "size": "full",
-                            "gravity": "center"
+                            "size": "full"
                         }
                     ],
-                    "flex": 1,
-                    "width": "30%",
+                    "width": "80px",
+                    "height": "80px",
                     "backgroundColor": "#eeeeee",
-                    "cornerRadius": "md"
+                    "cornerRadius": "md",
+                    "flex": 0
                 },
                 # 右側類別和標題
                 {
