@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask
+instance/
+.webassets-cache
+
+# 環境變數與配置文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+config.ini
+secrets.json
+
+# 編輯器和IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系統
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日誌文件
+*.log
+logs/
+
+# 其他
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "etc-news"
+version = "0.1.0"
+description = "LINE 新聞聊天機器人 - 提供每日早上新聞推播和新聞類別搜尋功能"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.8"
+flask = "^2.3.3"
+line-bot-sdk = "^3.5.0"
+requests = "^2.31.0"
+schedule = "^1.2.0"
+python-dotenv = "^1.0.0"
+beautifulsoup4 = "^4.12.2"
+gunicorn = "^21.2.0"
+pillow = "^11.1.0"
+feedparser = "^6.0.11"
+pymongo = "^4.12.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

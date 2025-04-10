@@ -1,0 +1,21 @@
+    category_urls = {
+        "即時": "https://news.cts.com.tw/real/index.html",
+        "氣象": "https://news.cts.com.tw/weather/index.html",
+        "政治": "https://news.cts.com.tw/politics/index.html",
+        "打假特攻隊": "https://news.cts.com.tw/topic/member1219.html",
+        "MLB": "https://event.cts.com.tw/mlb/",
+        "國際": "https://news.cts.com.tw/international/index.html",
+        "社會": "https://news.cts.com.tw/society/index.html",
+        "運動": "https://news.cts.com.tw/sports/index.html",
+        "生活": "https://news.cts.com.tw/life/index.html",
+        "財經": "https://news.cts.com.tw/money/index.html",
+        "台語": "https://news.cts.com.tw/taiwanese/index.html",
+        "地方": "https://news.cts.com.tw/local/index.html",
+        "產業": "https://news.cts.com.tw/industry/index.html",
+        "綜合": "https://news.cts.com.tw/general/index.html",
+        "藝文": "https://news.cts.com.tw/arts/index.html",
+        "旅遊": "https://news.cts.com.tw/travel/index.html",
+        "專題": "https://news.cts.com.tw/subject/index.html"
+    }
+
+    即時. 氣象. 政治. MLB. 國際. 社會. 運動. 生活. 財經. 地方. 產業. 綜合. 藝文. 旅遊. 專題
